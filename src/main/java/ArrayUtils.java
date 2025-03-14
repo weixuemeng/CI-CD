@@ -15,6 +15,7 @@ public class ArrayUtils {
                 return i;
             }
         }
+        System.out.println(x);
         return -1;
     }
 
