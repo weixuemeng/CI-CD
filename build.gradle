@@ -28,7 +28,9 @@ jar {
 jacocoTestReport {
     dependsOn test
     reports {
-        csv.required = true
+        xml.enabled true
+        csv.enabled true
+        html.enabled true
     }
 }
 
